@@ -1,0 +1,84 @@
+body {
+    color: white;
+    background-color: rgb(29, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    /*Essa função coloca a lista un do lado do outro na parte de cima*/
+    list-style-type: none;
+    /*Essa função tira a bolinha da lista UL LI*/
+    align-items: center;
+    /*Alinha ao centro na parte superior*/
+    padding: 10px;
+    /*Espaço entre as bordas da página, em cima e dos lados*/
+}
+
+a {
+    color: white;
+    /*Mudar a cor do link*/
+    text-decoration: none;
+    /*Para tirar a linha de baixo do link!*/
+}
+
+header img {
+    width: 150px;
+    /*Largura do tamanho da imagem*/
+    height: 150px;
+    /*Altura do tamanho da imagem*/
+    border-radius: 50%;
+    /*Colocando a imagem para ficar redonda*/
+    border: 5px solid rgb(108, 168, 236);
+    /*Colocando uma borda na foto!*/
+}
+
+.center {
+    text-align: center;
+    /*Centralizou a imagem*/
+}
+
+h1 {
+    color: rgb(108, 168, 236)
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 10px;
+}
+
+nav a:hover {
+    color: rgb(108, 168, 236);
+}
+
+nav #sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25px;
+    width: 90px;
+    background: rgb(192, 60, 170);
+    ;
+    border-radius: 50px;
+}

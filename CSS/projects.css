@@ -1,0 +1,106 @@
+body {
+    color: white;
+    background-color: rgb(29, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    /*Essa função coloca a lista un do lado do outro na parte de cima*/
+    list-style-type: none;
+    /*Essa função tira a bolinha da lista UL LI*/
+    align-items: center;
+    /*Alinha ao centro na parte superior*/
+    padding: 10px;
+    /*Espaço entre as bordas da página, em cima e dos lados*/
+
+}
+
+a {
+    color: white;
+    /*Mudar a cor do link*/
+    text-decoration: none;
+    /*Para tirar a linha de baixo do link!*/
+}
+
+.center {
+    text-align: center;
+    /*Centralizou a imagem*/
+}
+
+nav a:hover {
+    color: rgb(108, 168, 236);
+}
+
+nav #proj {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25px;
+    width: 80px;
+    background: rgb(192, 60, 170);
+    ;
+    border-radius: 50px;
+}
+
+.container {
+    padding: 0px 10px;
+}
+
+header img {
+    width: 150px;
+    /*Largura do tamanho da imagem*/
+    height: 150px;
+    /*Altura do tamanho da imagem*/
+    border-radius: 50%;
+    /*Colocando a imagem para ficar redonda*/
+    border: 5px solid rgb(108, 168, 236);
+    /*Colocando uma borda na foto!*/
+}
+
+main .relogio {
+    display: inline-flex;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    padding: 2vh;
+}
+
+main .codigo {
+    display: inline-block;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    padding: 2vh;
+}
+
+main h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25px;
+    width: flex;
+    background: rgb(192, 60, 170);
+    border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+    main .relogio {
+        width: 400px;
+    }
+
+    main .codigo{
+        width: 400px; 
+    }
+}
+
+@media (max-heigth: 300px) {
+    main .relogio {
+        height: 200px;
+    }
+
+    main .codigo{
+        height: 200px; 
+    }
+}
